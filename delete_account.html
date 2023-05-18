@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="scrips/delete_account.js"></script>
+</head>
+
+<body>
+    <header><css title1>GChat</css></header>
+    
+    <main>
+        <img class="logo" src="images/logo_b.png" width="10%">
+
+        <p>
+            <css title2>Delete account</css><br>
+            <css text1>This action will delete your account and all data associated with it.<br>
+            This data will be lost for ever and will be unrecoverable.</css>
+        </p>
+
+        <label for="email">Email:</label>
+        <br>
+        <input id="email">
+
+        <br>
+        <br>
+        
+        <label for="password">Password:</label>
+        <br>
+        <input id="password" type="password">
+
+        <br>
+        <br>
+
+        <label for="passwordConfirm">Confirm password:</label>
+        <br>
+        <input id="passwordConfirm" type="password">
+
+        <br>
+        <label id="errorLabel" class="textError"></label>
+        <br>
+
+        <center>
+            <button id="delete" class="delete">Remove</button>
+        </center>
+    </main>
+</body>
+</html>

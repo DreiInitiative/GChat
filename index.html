@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GChat</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module">
+        let deleteButton = document.getElementById("deleteButton");
+
+        deleteButton.addEventListener("click", () => {
+            window.location.href = "delete_account.html";
+        });
+
+        let changePasswordButton = document.getElementById("changePasswordButton");
+        changePasswordButton.addEventListener("click", () => {
+            window.location.href = "change_password.html"
+        });
+    </script>
+</head>
+<body>
+
+    <header><css title1>GChat</css></header>
+
+    <center>
+    <main>
+        <img class="logo" src="images/logo_b.png" width="10%">
+
+        <table>
+            <tr>
+                <td width="20%" align="center">
+                    <button id="deleteButton" class="menuButton" href="delete_account.html">Delete Account</button>
+                </td>
+
+                <td width="20%" align="center">
+                    <button id="changePasswordButton" class="menuButton">Change Password</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td width="20%" align="center">
+                    <button class="menuButton">Privacy Policy</button>
+                </td>
+
+                <td width="20%" align="center">
+                    <button class="menuButton">Terms and Conditions</button>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <p>
+            Copyrigth 2023
+        </p>
+    </main>
+    </center>
+
+</body>
+</html>

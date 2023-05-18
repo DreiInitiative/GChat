@@ -1,0 +1,89 @@
+@font-face {
+	font-family: "altothe";
+	src: url("fonts/aldothe_apache.ttf");
+}
+
+body {
+	text-align: center;
+	font-size: 16px;
+}
+
+[title1] {
+	color: white;
+	font-family: 'altothe';
+	font-size: 40px;
+}
+
+[title2] {
+	font-size: 24px;
+	font-style: italic;
+}
+
+[text1] {
+	color: red;
+}
+
+.textError {
+	color: red;
+	font-style: italic;
+	font-size: small;
+}
+
+header {
+	background-color: #008888;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+.logo {
+	margin-top: 40px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+.delete {
+	color: #eeeeee;
+	text-align: center;
+	background-color: red;
+	font-size: 16px;
+	width: 20%;
+	border: none;
+	box-shadow: 2px 2px 5px black;
+}
+
+.delete:hover {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	background-color: red;
+	font-size: 16px;
+	width: 22%;
+	box-shadow: 2px 2px 5px black;
+}
+
+.menuButton {
+	color: #eeeeee;
+	text-align: center;
+	background-color: #008888;
+	font-size: 16px;
+	border: none;
+	box-shadow: 2px 2px 5px black;
+	margin: 20px;
+	padding: 4px;
+}
+
+.menuButton:hover {
+	color: #eeeeee;
+	text-align: center;
+	background-color: #006666;
+	font-size: 16px;
+	border: none;
+	box-shadow: 2px 2px 5px black;
+	margin: 20px;
+	padding: 4px;
+}
