@@ -19,6 +19,16 @@
         changePasswordButton.addEventListener("click", () => {
             window.location.href = "change_password.html"
         });
+
+        let privacyButton = document.getElementById("privacyButton");
+        privacyButtonn.addEventListener("click", () => {
+            window.location.href = "privacy_policy.html";
+        });
+
+        let temrsButton = document.getElementById("termsButton");
+        termsButton.addEventListener("click", () => {
+            window.location.href = "terms_and_conditions.html";
+        });
     </script>
 </head>
 <body>
@@ -32,7 +42,7 @@
         <table>
             <tr>
                 <td width="20%" align="center">
-                    <button id="deleteButton" class="menuButton" href="delete_account.html">Delete Account</button>
+                    <button id="deleteButton" class="menuButton">Delete Account</button>
                 </td>
 
                 <td width="20%" align="center">
@@ -42,11 +52,11 @@
 
             <tr>
                 <td width="20%" align="center">
-                    <button id="privacy" class="menuButton" href="privacy_policy.html">Privacy Policy</button>
+                    <button id="privacyButton" class="menuButton">Privacy Policy</button>
                 </td>
 
                 <td width="20%" align="center">
-                    <button id="terms" class="menuButton" href="terms_and_conditions.html">Terms and Conditions</button>
+                    <button id="termsButton" class="menuButton">Terms and Conditions</button>
                 </td>
             </tr>
         </table>
